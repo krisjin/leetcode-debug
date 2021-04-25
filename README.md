@@ -1,5 +1,6 @@
 # LeetCode资料
 - https://github.com/chefyuan/algorithm-base
+专门为刚开始刷题的同学准备的算法基地，没有最细只有更细，立志用动画将晦涩难懂的算法说的通俗易懂
 
 
 # lee
