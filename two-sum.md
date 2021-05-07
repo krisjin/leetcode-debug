@@ -24,6 +24,9 @@
 
 
 ```java
+   
+    Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; ++i) {
             int temp = target - nums[i];//获取另一个值
@@ -35,10 +38,7 @@
         }
         return null;
     }
-```
 
-
-```java
 
     public static void main(String[] args) {
         int[] nums = {10, 5, 7, 2, 11, 15};
@@ -47,12 +47,15 @@
 
         System.out.println("index1=" + result[0] + ", index2=" + result[1]);
     }
+
 ```
+
 
 
 #### 总结
 
-
+思路：通过给出的已知条件：1.给定的数组中存在两个数相加等于目标值，要想求出求出数组中两个数的和等于目标值，
+ 可以在遍历数组时，先求出另一个值(目标值减当前遍历值)，并将该值存在map中。求出另一个值后，没都要去map中查找该值，如果有那就直接返回了。没有就将当前遍历的值存如map中。key为元素值，value为元素索引
 
 
 
