@@ -38,7 +38,16 @@
 ```
 
 
+```java
 
+    public static void main(String[] args) {
+        int[] nums = {10, 5, 7, 2, 11, 15};
+        TwoSum1 twoSum001 = new TwoSum1();
+        int[] result = twoSum001.twoSum(nums, 9);
+
+        System.out.println("index1=" + result[0] + ", index2=" + result[1]);
+    }
+```
 
 
 #### 总结
